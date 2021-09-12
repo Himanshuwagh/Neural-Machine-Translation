@@ -24,9 +24,18 @@ The problem stems from the fixed-length internal representation that must be use
 
 The solution is the use of an attention mechanism that allows the model to learn where to place attention on the input sequence as each word of the output sequence is decoded.
 
-<img src="https://miro.medium.com/max/2000/1*Gv5Im9HOh8yLA9yhxuhM9A.png" alt="attention model">
+<img src="https://miro.medium.com/max/2000/1*Gv5Im9HOh8yLA9yhxuhM9A.png" alt="attention model" width="750" height="450">
 
 The encoder-decoder recurrent neural network architecture with attention is currently the state-of-the-art on some benchmark problems for machine translation. And this architecture is used in the heart of the Google Neural Machine Translation system, or GNMT, used in their Google Translate service.
 https://translate.google.com
 
 Although effective, the neural machine translation systems still suffer some issues, such as scaling to larger vocabularies of words and the slow speed of training the models. There are the current areas of focus for large production neural translation systems, such as the Google system.
+
+### My results:-
+#### - Sequence to sequence model (Encoder-Decoder LSTM):-
+
+<img src="https://user-images.githubusercontent.com/75840165/122190711-b1a65a00-ceaf-11eb-9dc7-2b17d6b2825b.jpg" alt="results">
+
+#### - Bidirectional-LSTM with Attention:-
+
+<img src="https://user-images.githubusercontent.com/75840165/122190719-b3701d80-ceaf-11eb-9cf2-f2e0ae60d85c.jpg" alt="results">
